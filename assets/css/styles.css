@@ -17,11 +17,19 @@ body {
     color: violet;
 }
 
-
+.container {
+    margin: 0px auto;
+    max-width: 1280px;
+    position: relative;
+}
 
 .title-content {
 color: black;
 background-color: turquoise;
 border: none;
 margin: none;
+}
+
+.playground {
+    background-color: yellow;
 }
