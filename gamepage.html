@@ -6,32 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/script.js" defer></script>
-    <title>Rock, Papper and Scissors</title>
+    <title>Rock, Paper and Scissors</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="title-content"> Rock, Papper and Scissors</h1>
+        <h1 class="title-content"> Rock, Paper and Scissors</h1>
 
         <div class="score-btns">
-            <div class="left">You: <span id="player-score">0</span></div>
-            <div class="right">computer:<span id="computer-score">0</span></div>
             <div class="container">
-                <button >Rock</button>
-                <button>Papper</button>
-                <button>Scissor</button>
+                <button class="image-size" id="rock-btn">Rock</button>
+                <button class="image-size" id="paper-btn">Paper</button>
+                <button class="image-size" id="scissor-btn">Scissor</button>
             </div>
         </div>
-        <div class="playground">
-             <div><img id="players-choices"> hello </div>
-             <div><img id="computers-choices"> hello</div>
-        </div>
+        
+             <div><img id="players-choices" class="player-playground"></div>
+             <div class="score-btns">You:<span id="player-score">0</span></div>
+             <div class="score-btns">computer:<span id="computer-score">0</span></div>
+             <div><img id="computers-choices" class="computer-playground"></div>
+        
 
-        <a href="index.html">
+        <form action="index.html">
             <button class="btn-selector" id="returnbtn">Return to homepage!</button>
-        </a>
+        </form>
 
-        <footer class="container"> Rules</footer>
+        <footer class="rules"> Rules <br>
+            
+                <ul class="rules-list">
+                    <li>Paper cover Rock = 1 point</li>
+                    <li>Rock crush Scissors = 1 point</li>
+                    <li>Scissors cut Paper = 1 point</li>
+                </ul>
+        
+        </footer>
 
-    </div>
 </body>
 </html>

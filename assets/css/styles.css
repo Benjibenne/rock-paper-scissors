@@ -2,14 +2,31 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     text-align: center;
-    border: none;
-    margin: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 164px;
+
 }
 
-.btn-selector {
-    font-size: 2rem;
-    text-align: center;
+/* header*/
+
+.title-content {
     background-color: turquoise;
+    color: black;
+    padding: 18px;
+    margin: auto;
+
+}
+
+/* buttons*/
+.btn-selector {
+    font-size: 1.5rem;
+    background-color: turquoise;
+    padding: 10px;
+    width: 25%;
+
 }
 
 .btn-selector:hover {
@@ -17,19 +34,73 @@ body {
     color: violet;
 }
 
-.container {
-    margin: 0px auto;
-    max-width: 1280px;
-    position: relative;
+.score-btns {
+    font-size: 2rem;
 }
 
-.title-content {
-color: black;
-background-color: turquoise;
-border: none;
-margin: none;
+.image-size {
+    font-size: 1.5rem;
+
 }
+
+.image-size:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+form {
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+/* playground of rock papper scissors*/
 
 .playground {
-    background-color: yellow;
+    
+    font-size: 1.5rem;
+}
+
+.player-playground {
+    
+    width: 24em;
+    height: 24em;
+    background-color:cyan ;
+    margin-top: 10px;
+    
+}
+
+.computer-playground {
+    
+    width: 24em;
+    height: 24em;
+    background-color:green ;
+    margin-top: 10px;
+}
+
+
+
+
+/* footer css*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+.rules {
+    font-size: 1.5rem;
+    background-color: turquoise;
+    text-align: center;
+}
+
+.rules > li {
+    display: inline;
 }
