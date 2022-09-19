@@ -5,7 +5,7 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     padding-bottom: 164px;
 
 }
@@ -20,12 +20,24 @@ body {
 
 }
 
+
+/* paragraph text*/
+.welcome-text{
+    font-size: 1.5rem;
+    background-color: #e2d0be;
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+
 /* buttons*/
 .btn-selector {
     font-size: 1.5rem;
     background-color: turquoise;
     padding: 10px;
-    width: 25%;
+    width: 250px;
+    justify-content: center;
 
 }
 
@@ -103,4 +115,56 @@ footer {
 
 .rules > li {
     display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+/* responsive media */
+
+@media screen  and (max-width:380px){
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 105%;
+    
+    
+    }
+    
+    .title-content {
+        background-color: turquoise;
+        color: black;
+        padding: 18px;
+        margin: auto;
+        width: 105%;
+    
+    }
+}
+@media only screen and (max-width: 340px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 120%;
+    }
+    
+    .rules {
+        font-size: 1.5rem;
+        background-color: turquoise;
+        text-align: center;
+    }
+    
+    .rules > li {
+        display: inline;
+    }
+    
+    .title-content {
+        background-color: turquoise;
+        color: black;
+        padding: 18px;
+        margin: auto;
+        width: 120%;
+    }
 }
