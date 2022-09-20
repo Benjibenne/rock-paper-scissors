@@ -29,10 +29,9 @@ body {
     font-size: 1.5rem;
     background-color: #e2d0be;
     padding: 20px;
-    margin: 20px;
-    width: 45rem;
+    width: 45vw;
     margin: 0 auto;
-    
+    position: relative;
 
 }
 
