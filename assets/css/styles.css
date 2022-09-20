@@ -6,7 +6,7 @@ body {
     width: 100%;
     position: relative;
     min-height: 80vh;
-    padding-bottom: 164px;
+    padding-bottom: 144px;
 
 }
 
@@ -79,9 +79,9 @@ form {
 
 .wrap-container {
     display: flex;
-    columns: 2;
     gap: 10em;
     justify-content: center;
+    row-gap: 20px;
 }
 
 /* playground of rock papper scissors*/
