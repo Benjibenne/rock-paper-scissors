@@ -13,6 +13,10 @@ options.forEach((option) => {
 
     compareInputs(pInput, cInput);
     updateScore();
+    if (checkWinner()) {
+      pScore = cScore = 0;
+      updateScore();
+    }
   });
 });
 
@@ -61,3 +65,15 @@ function compareInputs(pInput, cInput) {
     document.getElementById("player-score").textContent = pScore;
     document.getElementById("computer-score").textContent = cScore;
   }
+
+function checkWinner() {
+  if (pScore === 5 || cScore === 5) {
+    const winner =
+      pScore === 5
+        ? "You win the game! Congratulations!"
+        : "Computer wins the game! Try again next time!";
+    alert(winner);
+    return true;
+  }
+  return false;
+}
