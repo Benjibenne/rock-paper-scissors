@@ -144,7 +144,7 @@ ul {
 
 /* responsive media */
 
-@media screen  and (max-width:385px) and (min-width:360px){
+@media screen  and (max-width:385px) and (min-width:340px){
     footer {
         position: absolute;
         bottom: 0;
@@ -162,7 +162,7 @@ ul {
     
     }
 }
-@media only screen and (min-width: 340px) and (min-width:360px) {
+@media only screen and (max-width: 340px) {
     footer {
         position: absolute;
         bottom: 0;
