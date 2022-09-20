@@ -91,6 +91,9 @@ form {
     height: 24em;
     background-color:cyan ;
     margin-top: 10px;
+    float: left;
+    position: relative;
+    
     
 }
 
@@ -100,6 +103,8 @@ form {
     height: 24em;
     background-color:green ;
     margin-top: 10px;
+    float: right;
+    position: relative;
 }
 
 
