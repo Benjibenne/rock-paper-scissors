@@ -1,6 +1,9 @@
 // choices of buttons
 const options = document.querySelectorAll(".image-size");
 
+let pScore = 0;
+let cScore = 0;
+
 options.forEach((option) => {
   option.addEventListener("click", function () {
     const pInput = this.textContent;
@@ -9,6 +12,7 @@ options.forEach((option) => {
     const cInput = cOptions[Math.floor(Math.random() * 3)];
 
     compareInputs(pInput, cInput);
+    updateScore();
   });
 });
 
@@ -25,25 +29,35 @@ function compareInputs(pInput, cInput) {
   if (pInput === "Rock") {
     if (cInput === "Scissors") {
         alert(`${currentMatch} = You Win`);
+        pScore++;
     } else {
         alert(`${currentMatch} = Computer Wins`);
+        cScore++;
       }
     }
     // Paper
   else if (pInput === "Paper") {
     if (cInput === "Rock") {
       alert(`${currentMatch} = You Win`);
+      pScore++;
     } else {
       alert(`${currentMatch} = Computer Wins`);
+      cScore++;
     }
   }
   // Scissors
   else {
     if (cInput === "Paper") {
       alert(`${currentMatch} = You Win`);
+      pScore++;
     } else {
       alert(`${currentMatch} = Computer Wins`);
+      cScore++;
     }
   }
  }
- 
+ // check score counter 
+ function updateScore() {
+    document.getElementById("player-score").textContent = pScore;
+    document.getElementById("computer-score").textContent = cScore;
+  }
