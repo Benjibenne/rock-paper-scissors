@@ -20,6 +20,9 @@ body {
 
 }
 
+ h2 {
+    font-size: 1.5;
+ }
 
 /* paragraph text*/
 .welcome-text{
@@ -27,6 +30,8 @@ body {
     background-color: #e2d0be;
     padding: 20px;
     margin: 20px;
+    width: 45rem;
+    margin: 0 auto;
     
 
 }
@@ -69,7 +74,7 @@ form {
 }
 
 .container {
-    padding: 20px;
+    padding: 40px;
 }
 
 
