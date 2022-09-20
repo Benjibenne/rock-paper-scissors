@@ -74,14 +74,12 @@ form {
 
 .container {
     padding: 40px;
-}
-
-.wrap-container {
     display: flex;
     gap: 5em;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 
 /* playground of rock papper scissors*/
