@@ -77,6 +77,12 @@ form {
     padding: 40px;
 }
 
+.wrap-container {
+    display: flex;
+    columns: 2;
+    gap: 10em;
+    justify-content: center;
+}
 
 /* playground of rock papper scissors*/
 
