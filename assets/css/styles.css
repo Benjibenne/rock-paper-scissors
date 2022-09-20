@@ -72,14 +72,13 @@ form {
     text-align: center;
 }
 
-.container {
-    padding: 40px;
+
+.wrap-container {
     display: flex;
     gap: 5em;
     justify-content: center;
     flex-wrap: wrap;
 }
-
 
 
 /* playground of rock papper scissors*/
@@ -95,7 +94,6 @@ form {
     height: 24em;
     background-color:cyan ;
     margin-top: 10px;
-    float: left;
     position: relative;
     
     
@@ -107,7 +105,6 @@ form {
     height: 24em;
     background-color:green ;
     margin-top: 10px;
-    float: right;
     position: relative;
 }
 

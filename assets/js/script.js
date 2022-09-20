@@ -6,11 +6,12 @@ let cScore = 0;
 
 options.forEach((option) => {
   option.addEventListener("click", function () {
-    const pInput = this.textContent;
+    const pInput = this.value;
 
     const cOptions = ["Rock", "Paper", "Scissors"];
     const cInput = cOptions[Math.floor(Math.random() * 3)];
 
+    showImages(pInput, cInput);
     compareInputs(pInput, cInput);
     updateScore();
     if (checkWinner()) {
@@ -60,6 +61,13 @@ function compareInputs(pInput, cInput) {
     }
   }
  }
+
+ //images for playground 
+ function showImages(pInput, cInput) {
+   document.getElementById("players-choices").src = `assets/images/${pInput}.png`;
+   document.getElementById("computers-choices").src = `assets/images/${cInput}.png`;
+ }
+
  // check score counter 
  function updateScore() {
     document.getElementById("player-score").textContent = pScore;
