@@ -144,7 +144,7 @@ ul {
 
 /* responsive media */
 
-@media screen  and (max-width:380px){
+@media screen  and (max-width:385px) and (min-width:360px){
     footer {
         position: absolute;
         bottom: 0;
@@ -162,21 +162,11 @@ ul {
     
     }
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (min-width: 340px) and (min-width:360px) {
     footer {
         position: absolute;
         bottom: 0;
         width: 120%;
-    }
-    
-    .rules {
-        font-size: 1.5rem;
-        background-color: turquoise;
-        text-align: center;
-    }
-    
-    .rules > li {
-        display: inline;
     }
     
     .title-content {
