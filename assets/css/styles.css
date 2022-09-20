@@ -52,12 +52,14 @@ body {
 
 .image-size {
     font-size: 1.5rem;
+    
 
 }
 
 .image-size:hover {
     background-color: darkgray;
     color: white;
+    transform: scale(1.2);
 }
 
 form {
