@@ -17,6 +17,7 @@ body {
     color: black;
     padding: 18px;
     margin: auto;
+    font-size: 18px;
 
 }
 
@@ -52,6 +53,7 @@ body {
 
 .score-btns {
     font-size: 2rem;
+    padding: 10px;
 }
 
 .image-size {
@@ -136,6 +138,12 @@ ul {
 
 
 /* responsive media */
+@media only screen and (max-width:800px) and (min-width:400px) {
+    ul {
+        list-style-type: none;
+        font-size: 80%;
+    }
+}
 
 @media only screen  and (max-width:500px) and (min-width:400px){
 
@@ -162,6 +170,10 @@ ul {
         font-size: 8px;
     }
  
+    ul {
+        list-style-type: none;
+        font-size: 18px;
+    }
 
     .welcome-text {
         font-size: 1.5rem;
@@ -176,6 +188,6 @@ ul {
         color: black;
         padding: 18px;
         margin: auto;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
