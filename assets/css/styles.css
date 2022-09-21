@@ -102,8 +102,7 @@ form {
 .computer-playground {
     
     width: 24em;
-    height: 24em;
-    
+    height: 24em;  
     margin-top: 10px;
     
 }
@@ -154,6 +153,10 @@ ul {
 
 }
 @media only screen and (max-width:400px) and (min-width:300px) {
+
+    .rules-list {
+       padding: 10px;
+    }
 
     .container {
         font-size: 8px;
