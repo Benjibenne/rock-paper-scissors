@@ -80,8 +80,8 @@ function compareInputs(pInput, cInput) {
     if (pScore === 6 || cScore === 6) {
       const winner =
         pScore === 6
-          ? "You win the game! Congratulations!"
-          : "Computer wins the game! Try again next time!";
+          ? "Congratulation Player this Battleground is yours to keep"
+          : "The Computer won this Battleground! Better luck next time";
       alert(winner);
       return true;
     }
