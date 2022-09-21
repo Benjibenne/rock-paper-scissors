@@ -40,16 +40,49 @@
 
   ![buttons of game](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/buttons%20to%20play%20with%20of%20gamepage.JPG)
 
-- 
+ - This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+
+    ![score counter](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/score%20span%20of%20gamepage.JPG)
+
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+
+  ![images of user choice](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/image%20that%20change%20depending%20of%20buttons%20that%20clicks.JPG)
+
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+
+  ![return to homepage button](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/second%20button%20with%20return%20to%20homepage%20of%20gamepage.JPG)
+
 
 ### Features Left to Implement 
+- 
 
-## Testing: 
+## Testing:
+### Lighthouse desktop
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+
+![lighthouse scores desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20of%20index.JPG)
+![lighthouse 2score desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20gamepage.JPG)
+
+### Lighthouse mobile 
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+ ![lighthouse scores mobile](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20mobile%20score%20of%20index.JPG)
+ ![lighthouse 2scores mobile](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20mobil%20score%20gamepage.JPG)
+
+ ### Validations css with html both pages  and jshint
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+ ![css image validation](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/css%20validator%20score.JPG)
+ ![html validation image index](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/Index.html%20validator%20score%20(2).JPG)
+ ![html validation image gamepage](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/gamepage.html%20validator%20score.JPG)
+ ![jshint validation](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/jshint%20score%20with%20alot%20of%20warnings.JPG)
 
 ### Bugs 
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
 
 ## Deployment:
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
 
 ## Credits:
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
 
 
