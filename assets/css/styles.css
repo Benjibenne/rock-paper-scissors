@@ -21,7 +21,7 @@ body {
 }
 
  h2 {
-    font-size: 1.5;
+    font-size: 1.5rem;
  }
 
 /* paragraph text*/
@@ -143,12 +143,36 @@ ul {
     .container {
         font-size: 12px;
     }
-
-}
-@media only screen and (max-width:400px) and (min-width:300) {
-
-    .container {
-        font-size: 12px;
+ 
+    .welcome-text {
+        font-size: 1.5rem;
+        background-color: #e2d0be;
+        padding: 20px;
+        width: 69vw;
+        margin: 0 auto;
     }
 
+}
+@media only screen and (max-width:400px) and (min-width:300px) {
+
+    .container {
+        font-size: 8px;
+    }
+ 
+
+    .welcome-text {
+        font-size: 1.5rem;
+        background-color: #e2d0be;
+        padding: 20px;
+        width: 78vw;
+        margin: 0 auto;
+    }
+
+    .title-content {
+        background-color: turquoise;
+        color: black;
+        padding: 18px;
+        margin: auto;
+        font-size: 10px;
+    }
 }
