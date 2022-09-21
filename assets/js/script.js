@@ -77,9 +77,9 @@ function compareInputs(pInput, cInput) {
 
   // checking winner
   function checkWinner() {
-    if (pScore === 5 || cScore === 5) {
+    if (pScore === 6 || cScore === 6) {
       const winner =
-        pScore === 5
+        pScore === 6
           ? "You win the game! Congratulations!"
           : "Computer wins the game! Try again next time!";
       alert(winner);
