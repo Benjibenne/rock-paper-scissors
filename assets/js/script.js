@@ -6,9 +6,9 @@ let cScore = 0;
 
 options.forEach((option) => {
   option.addEventListener("click", function () {
-    const pInput = this.textContent;
+    const pInput = this.value;
 
-    const cOptions = ["Rock", "Paper", "Scissors"];
+    const cOptions = ["Rock", "Paper", "Scissor"];
     const cInput = cOptions[Math.floor(Math.random() * 3)];
 
     showImages(pInput, cInput);
@@ -32,7 +32,7 @@ function compareInputs(pInput, cInput) {
     }
       // Rock
   if (pInput === "Rock") {
-    if (cInput === "Scissors") {
+    if (cInput === "Scissor") {
         alert(`${currentMatch} = You Win`);
         pScore++;
     } else {
