@@ -64,8 +64,8 @@ function compareInputs(pInput, cInput) {
 
  //images for playground 
  function showImages(pInput, cInput) {
-   document.getElementById("players-choices").src = `assets/images/${pInput}.png`;
-   document.getElementById("computers-choices").src = `assets/images/${cInput}.png`;
+   document.getElementById("players-choices").src =`assets/images/${pInput}.png`;
+   document.getElementById("computers-choices").src =`assets/images/${cInput}.png`;
  }
 
  // check score counter 
