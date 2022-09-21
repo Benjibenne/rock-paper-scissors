@@ -30,7 +30,7 @@
     ![play button](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/play%20button%20of%20index.JPG)
 
 - In all the pages of first page and game page we have our footer which include the rules of the game and how and why the player or the computer gains points. And if there anything confusing the user can always scroll down or look at the bottom of the screen to see the reason by the rules if the javascript alerts of result wasnt enough explaination for the result.
-![footer with rules]() 
+![footer with rules](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/footer%20with%20rules%20of%20index.JPG) 
 
 ### Features Left to Implement 
 
