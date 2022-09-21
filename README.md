@@ -19,7 +19,7 @@
 ## Features:
 
 ### First page 
-- First feature is the header which is at top of the page where you can see the name of the game. And what type of game the user gonna play. and how much points the player need to win.
+- First feature is the header which is at top of the page where you can see the name of the game. And what type of game the user gonna play. and how much points the player need to win. As well this title is in both first page and game page.
 ![title image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/title%20for%20game.JPG)
 
 - In the first page we got the introduction paragraph which shows the player my joy for the user trying out my game. And an summary of the content of the game. 
@@ -33,6 +33,11 @@
 ![footer with rules](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/footer%20with%20rules%20of%20index.JPG) 
 
 ### Game page
+- In game page we have buttons which has the name rock, paper, and scissor which is where the user can choice which button to play with to get points.
+- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+
+  ![buttons of game](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/buttons%20to%20play%20with%20of%20gamepage.JPG)
+
 - 
 
 ### Features Left to Implement 
