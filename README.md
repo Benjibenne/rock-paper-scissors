@@ -54,7 +54,10 @@
 
 
 ### Features Left to Implement 
-- 
+- Features I want to implement in the future are some different font colors to the game possible beige or other types.
+- maybe another image in front page so it got more flavour for users introduction to the battlefield game.
+- As well changing the title name as time is short will change it later and fix the responsiveness to the title as this is an last second thought, it was best to push this forward when changes or improvement is warranted.
+- And would maybe change the color of the play button and return to homepage button, as they dont stick out to the rest of the footer and header color as they share same color.
 
 ## Testing:
 ### Lighthouse desktop
