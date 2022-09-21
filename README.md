@@ -1,15 +1,20 @@
 # Rock Paper Scissors game
 
-![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20index.JPG) 
+## - First page
+![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20index.JPG)
+
+## - Playground
 ![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20gamepage.JPG)
 
 ## Live Site:
+
 [view website here](https://benjibenne.github.io/rock-paper-scissors/index.html?)
 
 ## Repository:
 [view repository here](https://github.com/Benjibenne/rock-paper-scissors)
 
-## Features: 
+## Features:
+ 
 
 ### Existing Features 
 
