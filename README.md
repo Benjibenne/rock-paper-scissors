@@ -3,10 +3,10 @@
 - This game has an front page with introduction about the game and an button to start the game. 
 - The game page include an scoure counter for the player and computer which will count up six points which the winner who first gets above 5 points win with an alert notice.
 - In the game page we got the buttons with specified names which include an image when button pressed for specified button. Which also include an footer with the rules to see how the player wins and why the computer gets points.
-## - First page
+
 ![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20index.JPG)
 
-## - Playground
+
 ![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20gamepage.JPG)
 
 ## Live Site:
@@ -18,7 +18,7 @@
 
 ## Features:
 
-### Existing Features 
+### First page 
 - First feature is the header which is at top of the page where you can see the name of the game. And what type of game the user gonna play. and how much points the player need to win.
 ![title image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/title%20for%20game.JPG)
 
@@ -31,6 +31,9 @@
 
 - In all the pages of first page and game page we have our footer which include the rules of the game and how and why the player or the computer gains points. And if there anything confusing the user can always scroll down or look at the bottom of the screen to see the reason by the rules if the javascript alerts of result wasnt enough explaination for the result.
 ![footer with rules](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/footer%20with%20rules%20of%20index.JPG) 
+
+### Game page
+- 
 
 ### Features Left to Implement 
 
