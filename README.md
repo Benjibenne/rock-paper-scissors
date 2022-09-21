@@ -20,7 +20,7 @@
 
 ### Existing Features 
 - First feature is the header which is at top of the page where you can see the name of the game. And what type of game the user gonna play. and how much points the player need to win.
-![title image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/title%20of%20index.JPG)
+![title image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/title%20for%20game.JPG)
 
 - In the first page we got the introduction paragraph which shows the player my joy for the user trying out my game. And an summary of the content of the game. 
 ![paragraph text](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/introduction%20page%20of%20index.JPG)
