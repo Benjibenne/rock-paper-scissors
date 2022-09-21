@@ -6,7 +6,7 @@ let cScore = 0;
 
 options.forEach((option) => {
   option.addEventListener("click", function () {
-    const pInput = this.value;
+    const pInput = this.textContent;
 
     const cOptions = ["Rock", "Paper", "Scissors"];
     const cInput = cOptions[Math.floor(Math.random() * 3)];
@@ -16,7 +16,7 @@ options.forEach((option) => {
     changeScore();
     if (checkWinner()) {
       pScore = cScore = 0;
-      updateScore();
+      changeScore();
     }
   });
 });
@@ -74,27 +74,18 @@ function compareInputs(pInput, cInput) {
     document.getElementById("computer-score").textContent = cScore;
   }
 
- //reset score and results
- function resetScore() {
-  pScore = 0;
-  cScore = 0;
-  
-
- }
-
 
   // checking winner
   function checkWinner() {
     if (pScore === 5 || cScore === 5) {
       const winner =
         pScore === 5
-          resultMessage.innerHTML = "You win the game! Congratulations!"
-          
-          resultMessage.innerHTML = "Computer wins the game! Try again next time!";
-         
-
+          ? "You win the game! Congratulations!"
+          : "Computer wins the game! Try again next time!";
       alert(winner);
       return true;
     }
     return false;
   }
+
+  
