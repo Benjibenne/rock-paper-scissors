@@ -47,8 +47,8 @@ body {
 }
 
 .btn-selector:hover {
-    background-color: green;
-    color: violet;
+    background-color: darkgray;
+    color: white;
 }
 
 .score-btns {
