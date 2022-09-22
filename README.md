@@ -84,8 +84,13 @@
 - There where bugs in string errors that made the images not load the right url, which where solved by finding the right strings and changing the images name files.
 - There where bugs in changing images in docs when fixing readme as I made extra changes to html pages. So had take new snipe pictures of the footer and the header which later caused more branch issues, which where solved by creating new gitpod by clicking the green button in github.
 
+### unfixed bugs
+- No unfixed bugs left and found.
+
 ## Deployment:
 - 
+
+  ![image of deployment settings]()
 
 ## Credits:
 - 
