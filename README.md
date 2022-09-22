@@ -4,10 +4,10 @@
 - The game page include an scoure counter for the player and computer which will count up six points which the winner who first gets above 5 points win with an alert notice.
 - In the game page we got the buttons with specified names which include an image when button pressed for specified button. Which also include an footer with the rules to see how the player wins and why the computer gets points.
 
-![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20index.JPG)
+  ![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20index.JPG)
 
 
-![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20gamepage.JPG)
+  ![responsive image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/responsive%20image%20of%20gamepage.JPG)
 
 ## Live Site:
 
@@ -24,7 +24,8 @@
   ![title image](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/title%20for%20game.JPG)
 
 - In the first page we got the introduction paragraph which shows the player my joy for the user trying out my game. And an summary of the content of the game. 
-![paragraph text](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/introduction%20page%20of%20index.JPG)
+
+  ![paragraph text](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/introduction%20page%20of%20index.JPG)
 
 - To start the game we got the play button which swich to game page where the user can start the game in their own time.
 
@@ -63,8 +64,8 @@
 ### Lighthouse desktop
 - Tested my html front page and game page with desktop and found no errors.
 
-![lighthouse scores desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20of%20index.JPG)
-![lighthouse 2score desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20gamepage.JPG)
+  ![lighthouse scores desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20of%20index.JPG)
+  ![lighthouse 2score desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20gamepage.JPG)
 
 ### Lighthouse mobile 
 - Tested html pages of first page and game page in mobile and found no error.
@@ -88,15 +89,36 @@
 - No unfixed bugs left and found.
 
 ## Deployment:
-#### 1 - Step 1 click on settings where marker 1 is drawn. 
-#### 2 - Step 2 click the pages name tag in the left corner where second marker is drawn.
-#### 3 - Step 3 click on the branch border to get an preview of aviable settings.
-#### 4 - Step 4 in default setting the browser is sett on none so you need to click on main and after that wait for few min and reload so the github have turned you website to live. 
+#### 1 
+ Step 1 click on settings where marker 1 is drawn. 
+#### 2 
+ Step 2 click the pages name tag in the left corner where second marker is drawn.
+#### 3 
+ Step 3 click on the branch border to get an preview of aviable settings.
+#### 4 
+ Step 4 in default setting the browser is sett on none so you need to click on main and after that wait for few min and reload so the github have turned you website to live. 
  
   ![image of deployment settings](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/deployment%20steps.JPG)
 
 ## Credits:
-- 
-- 
 
+#### media 
+- the images was taken from [pixabay](https://pixabay.com/sv/).
+#### content 
+- The code and how to work and create was reference alot from [https://sebhastian.com/](https://sebhastian.com/rock-paper-scissors-javascript/?fbclid=IwAR2AH_HoSq5koupQE991LPLtP5aYdBWJcp4yJykFRE-JDjv-Nk958Boyguw).
 
+- The code on how to make the footer sit at the bottom is from 
+[Coding Journey](https://www.youtube.com/watch?v=US_3XvufMLU&t=637s).
+
+- The code to work with containers and css where strongly from friends and these sites [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+#### color 
+- I chose to use turquoise color for background in header and footer and main background. As well (#e2d0be) beige and in the lets play and return to homepage I used as an hover darkgray and black aswell on the hover buttons on rock, paper, scissor.
+
+## Acknowledgement
+
+- Big thank you for all support I gotten from tutor support in code-institute and from slack overflow. Where many times I was stuck from an bug or an small misspelling which I couldnt divert my concentration on.
+
+- Big thank you for my friends who help me late nights correcting me and reminding me of my mistakes and suggesting me to amazing sites and sources to work with and get refens from.
+
+- Final thanks goes to my family who always where there to give me feedback of my game and nothing feelt as good off getting support from them all.
