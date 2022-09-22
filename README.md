@@ -61,31 +61,34 @@
 
 ## Testing:
 ### Lighthouse desktop
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- Tested my html front page and game page with desktop and found no errors.
 
 ![lighthouse scores desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20of%20index.JPG)
 ![lighthouse 2score desktop](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20desktop%20score%20gamepage.JPG)
 
 ### Lighthouse mobile 
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- Tested html pages of first page and game page in mobile and found no error.
  ![lighthouse scores mobile](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20mobile%20score%20of%20index.JPG)
  ![lighthouse 2scores mobile](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/lighthouse%20mobil%20score%20gamepage.JPG)
 
  ### Validations css with html both pages  and jshint
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- I check the validation score of css, html pages both first page and game page.
  ![css image validation](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/css%20validator%20score.JPG)
  ![html validation image index](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/Index.html%20validator%20score%20(2).JPG)
  ![html validation image gamepage](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/gamepage.html%20validator%20score.JPG)
+
+ -  I also check the javascript in jshint and found no errors alot of warnings but no errors found.
  ![jshint validation](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/jshint%20score%20with%20alot%20of%20warnings.JPG)
 
 ### Bugs 
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- There where bugs in string errors that made the images not load the right url, which where solved by finding the right strings and changing the images name files.
+- There where bugs in changing images in docs when fixing readme as I made extra changes to html pages. So had take new snipe pictures of the footer and the header which later caused more branch issues, which where solved by creating new gitpod by clicking the green button in github.
 
 ## Deployment:
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- 
 
 ## Credits:
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
-- This area include interaction to the game and showing desired choice of button by changing the users image to gain points. Which also include an hover effect when mousing over to showcase the decisions the user can do.
+- 
+-
 
 
