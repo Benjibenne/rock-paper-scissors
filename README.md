@@ -88,12 +88,15 @@
 - No unfixed bugs left and found.
 
 ## Deployment:
-- 
-
-  ![image of deployment settings]()
+#### 1 - Step 1 click on settings where marker 1 is drawn. 
+#### 2 - Step 2 click the pages name tag in the left corner where second marker is drawn.
+#### 3 - Step 3 click on the branch border to get an preview of aviable settings.
+#### 4 - Step 4 in default setting the browser is sett on none so you need to click on main and after that wait for few min and reload so the github have turned you website to live. 
+ 
+  ![image of deployment settings](https://raw.githubusercontent.com/Benjibenne/rock-paper-scissors/main/docs/deployment%20steps.JPG)
 
 ## Credits:
 - 
--
+- 
 
 
