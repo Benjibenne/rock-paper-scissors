@@ -1,8 +1,9 @@
 // choices of buttons
 const options = document.querySelectorAll(".image-size");
-
+const resultText = document.querySelector(".score-result");
 let pScore = 0;
 let cScore = 0;
+let result;
 
 options.forEach((option) => {
   option.addEventListener("click", function () {
